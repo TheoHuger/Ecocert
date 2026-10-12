@@ -14,3 +14,5 @@ $routes->get('prive','AuthController::index',['filter' => 'auth']);
 $routes->get('liste_utilisateur', 'entrainement\UtilisateurController::consultationUtilisateur',['filter' => 'auth']);
 
 $routes->post('listeUtilisateursPrivilege','entrainement\ajax\AjaxUtilisateurController::utilisateurPrivilege',['filter'=>'auth']);
+
+$routes->get('ajoutCertificat','ajout\AjoutCertificatController::index',['filter' => 'auth']);
