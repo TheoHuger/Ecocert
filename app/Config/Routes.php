@@ -1,6 +1,6 @@
 <?php
 
-use CodeIgniter\Router\RouteCollection;
+use Ecocert\Router\RouteCollection;
 
 /** @var RouteCollection $routes */
 $routes->get('/', 'AccueilController::index');
@@ -12,5 +12,5 @@ $routes->get('public','PubliqueController::index');
 $routes->get('prive','AuthController::index',['filter' => 'auth']);
 
 $routes->get('liste_utilisateur', 'entrainement\UtilisateurController::consultationUtilisateur',['filter' => 'auth']);
-
+$routes->get('recherche_client','consultation\ConsultationController::consultationPays',['filter' => 'auth']);
 $routes->post('listeUtilisateursPrivilege','entrainement\ajax\AjaxUtilisateurController::utilisateurPrivilege',['filter'=>'auth']);
