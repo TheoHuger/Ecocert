@@ -15,4 +15,10 @@ $routes->get('liste_utilisateur', 'entrainement\UtilisateurController::consultat
 
 $routes->post('listeUtilisateursPrivilege','entrainement\ajax\AjaxUtilisateurController::utilisateurPrivilege',['filter'=>'auth']);
 
-$routes->get('ajoutCertificat','ajout\AjoutCertificatController::index',['filter' => 'auth']);
+$routes->get('ajoutCertificat','ajout\AjoutCertificatController::ajoutCertificat',['filter' => 'auth']);
+$routes->get('liste_prestation', 'ajout\AjoutCertificatController::ajoutCertificat',['filter' => 'auth']);
+$routes->get('liste_langue', 'ajout\AjoutCertificatController::ajoutCertificat',['filter' => 'auth']);
+$routes->post('ajoutCertificat', 'ajout\AjoutCertificatController::enregistrerCertificat', ['filter' => 'auth']);
+
+
+
