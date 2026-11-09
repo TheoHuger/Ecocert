@@ -4,14 +4,22 @@
         <div class="container mt-4 mb-5" style="max-width: 700px;">
 
             <h2 class="mb-4">Enregistrement d'un certificat pour <?= session()->get('prenom') . ' ' . session()->get('username') ?>
-</h2>
+            </h2>
+            <?php if (session()->getFlashdata('succes')) { ?>
+                <div class="alert alert-success"><?= session()->getFlashdata('succes') ?></div>
+            <?php } ?>
+            <?php if (session()->getFlashdata('erreur')) { ?>
+                <div class="alert alert-danger"><?= session()->getFlashdata('erreur') ?></div>
+            <?php } ?>
 
-            <form action="" method="post">
-
-                <div class="mb-3">
+            <form action="<?= site_url('ajoutCertificat') ?>" method="post" enctype="multipart/form-data">                <div class="mb-3">
                     <label for="prestation" class="form-label">Prestation <span class="text-danger">*</span></label>
                     <select class="form-select" id="prestation" name="prestation" required>
-                        <option value="BIO UE" selected>BIO UE</option>
+                        <?php foreach ($lesPrestations as $unePrestation) { ?>
+                            <option value="<?= $unePrestation->id_prestation ?>">
+                                <?= $unePrestation->libelle_prestation ?>
+                            </option>
+                        <?php } ?>
                     </select>
                 </div>
 
@@ -49,8 +57,11 @@
                 <div class="mb-3">
                     <label for="langue" class="form-label">Langue <span class="text-danger">*</span></label>
                     <select class="form-select" id="langue" name="langue" required>
-                        <option value="Français" selected>Français</option>
-                        <option value="Anglais">Anglais</option>
+                        <?php foreach ($lesLangues as $uneLangue) { ?>
+                            <option value="<?= $uneLangue->id_langue ?>">
+                                <?= $uneLangue->libelle_langue ?>
+                            </option>
+                        <?php } ?>
                     </select>
                 </div>
 
