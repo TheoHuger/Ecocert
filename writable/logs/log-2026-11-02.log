@@ -1,0 +1,362 @@
+DEBUG - 2026-11-02 12:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 12:48:02 --> ErrorException: Undefined variable $LesPays
+[Method: GET, Route: prive]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 17.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesPays', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 17)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\AuthController.php(9): view('pages/consultation/v_recherche_client')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 12:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:22:10 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:25:04 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:25:05 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:26:14 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:26:15 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:26:15 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:27:08 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:27:08 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:27:08 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:27:08 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:28:27 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:36:58 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:49:35 --> Error: Undefined constant "UnDepartement"
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 31.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 4 APPPATH\Controllers\consultation\ConsultationController.php(16): view('pages/consultation/v_recherche_client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->rechercheClient()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 15:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 15:18:26 --> Error: Call to a member function getTousLesPays() on null
+[Method: GET, Route: recherche_client]
+in APPPATH\Controllers\consultation\ConsultationController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->rechercheClient()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 15:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 15:18:26 --> Error: Call to a member function getTousLesPays() on null
+[Method: GET, Route: recherche_client]
+in APPPATH\Controllers\consultation\ConsultationController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->rechercheClient()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 15:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 16:21:31 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClients
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(15): CodeIgniter\Model->__call('getClients', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 16:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 16:21:33 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClients
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(15): CodeIgniter\Model->__call('getClients', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 16:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 16:24:41 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 16:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 16:25:50 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

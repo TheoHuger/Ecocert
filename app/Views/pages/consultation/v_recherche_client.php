@@ -47,8 +47,9 @@
             <button type="submit" class="btn btn-primary">Rechercher</button>
         </form>
         
-        <div id="resultats" class="mt-4"></div>
-        
+        <div class="col-lg-9 col-md-8">
+            <div id="resultats" class="mt-4"></div>
+        </div>
         
         
 <script>

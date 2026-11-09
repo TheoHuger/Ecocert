@@ -1,0 +1,306 @@
+DEBUG - 2026-11-09 12:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 12:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 12:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 12:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 12:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 12:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 12:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 12:43:07 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:12:36 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:12:36 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:12:36 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:12:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:12:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 14:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 14:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 14:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 14:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 14:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 14:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 14:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:14:41 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:15:02 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:15:03 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:16:25 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 14:16:26 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Model.php on line 758.
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 14:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-09 14:58:09 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'pays'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'id'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 908.
+ 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "client"."nom_commercial" LIKE \'%ERGERG%\' ESCAPE \'!\'
+AND "pays"."id" = \'France\'
+AND "departement"."code_departement" = \'Tous\'
+AND  "ville"."nom_ville" LIKE \'%Tours%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "client"."nom_commercial" LIKE :client.nom_commercial: ESCAPE \'!\'
+AND "pays"."id" = :pays.id:
+AND "departement"."code_departement" = :departement.code_departement:
+AND  "ville"."nom_ville" LIKE :ville.nom_ville: ESCAPE \'!\'', [...], false)
+ 3 APPPATH\Models\consultation\ConsultationModelClient.php(34): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(18): App\Models\consultation\ConsultationModelClient->getClient('ERGERG', 'France', 'Tous', 'Tours')
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 14:58:09 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'pays'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'id'. SQLSTATE: 42S22, code: 207
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "client"."nom_commercial" LIKE :client.nom_commercial: ESCAPE \'!\'
+AND "pays"."id" = :pays.id:
+AND "departement"."code_departement" = :departement.code_departement:
+AND  "ville"."nom_ville" LIKE :ville.nom_ville: ESCAPE \'!\'', [...], false)
+ 2 APPPATH\Models\consultation\ConsultationModelClient.php(34): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(18): App\Models\consultation\ConsultationModelClient->getClient('ERGERG', 'France', 'Tous', 'Tours')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 14:58:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'pays'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'id'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "client"."nom_commercial" LIKE \'%ERGERG%\' ESCAPE \'!\'
+AND "pays"."id" = \'France\'
+AND "departement"."code_departement" = \'Tous\'
+AND  "ville"."nom_ville" LIKE \'%Tours%\' ESCAPE \'!\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "client"."nom_commercial" LIKE \'%ERGERG%\' ESCAPE \'!\'
+AND "pays"."id" = \'France\'
+AND "departement"."code_departement" = \'Tous\'
+AND  "ville"."nom_ville" LIKE \'%Tours%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "client"."nom_commercial" LIKE :client.nom_commercial: ESCAPE \'!\'
+AND "pays"."id" = :pays.id:
+AND "departement"."code_departement" = :departement.code_departement:
+AND  "ville"."nom_ville" LIKE :ville.nom_ville: ESCAPE \'!\'', [...], false)
+ 4 APPPATH\Models\consultation\ConsultationModelClient.php(34): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(18): App\Models\consultation\ConsultationModelClient->getClient('ERGERG', 'France', 'Tous', 'Tours')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 15:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-09 15:23:35 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: recherche_client]
+in APPPATH\Models\consultation\ConsultationModelPays.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2026-11-09 15:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 15:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-09 15:24:26 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'pays'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'id'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 908.
+ 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "pays"."id" = \'France\'
+AND "departement"."code_departement" = \'SEINE-MARITIME\'')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "pays"."id" = :pays.id:
+AND "departement"."code_departement" = :departement.code_departement:', [...], false)
+ 3 APPPATH\Models\consultation\ConsultationModelClient.php(34): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(18): App\Models\consultation\ConsultationModelClient->getClient('', 'France', 'SEINE-MARITIME', '')
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 15:24:26 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'pays'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'id'. SQLSTATE: 42S22, code: 207
+[Method: POST, Route: resultatRechercheClient]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "pays"."id" = :pays.id:
+AND "departement"."code_departement" = :departement.code_departement:', [...], false)
+ 2 APPPATH\Models\consultation\ConsultationModelClient.php(34): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(18): App\Models\consultation\ConsultationModelClient->getClient('', 'France', 'SEINE-MARITIME', '')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 15:24:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'pays'. SQLSTATE: 42S22, code: 207
+[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'id'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "pays"."id" = \'France\'
+AND "departement"."code_departement" = \'SEINE-MARITIME\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "pays"."id" = \'France\'
+AND "departement"."code_departement" = \'SEINE-MARITIME\'')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT "client"."id", "client"."nom_commercial", "ville"."nom_ville", "ville"."code_postal"
+FROM "bd_certificats"."dbo"."client"
+LEFT JOIN "bd_certificats"."dbo"."ville" ON "ville"."id" = "client"."id_ville"
+LEFT JOIN "bd_certificats"."dbo"."departement" ON "departement"."code_departement" = "ville"."code_departement"
+LEFT JOIN "bd_certificats"."dbo"."pays" ON "pays"."id" = "ville"."pays"
+WHERE "pays"."id" = :pays.id:
+AND "departement"."code_departement" = :departement.code_departement:', [...], false)
+ 4 APPPATH\Models\consultation\ConsultationModelClient.php(34): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(18): App\Models\consultation\ConsultationModelClient->getClient('', 'France', 'SEINE-MARITIME', '')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

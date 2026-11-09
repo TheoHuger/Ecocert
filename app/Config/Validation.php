@@ -55,7 +55,7 @@ class Validation extends BaseConfig
             'rules' => 'required|min_length[12]',
             'errors' => [
                 'required' => 'Le {field} est obligatoire',
-                'min_length' => 'Le {field} doit comporter au moins (param) caractères'
+                'min_length' => 'Le {field} doit comporter au moins {param} caractères'
             ]
         ]
     ];

@@ -12,5 +12,7 @@ $routes->get('public','PubliqueController::index');
 $routes->get('prive','AuthController::index',['filter' => 'auth']);
 
 $routes->get('liste_utilisateur', 'entrainement\UtilisateurController::consultationUtilisateur',['filter' => 'auth']);
-$routes->get('recherche_client','consultation\ConsultationController::consultationPays',['filter' => 'auth']);
+$routes->get('recherche_client','consultation\ConsultationController::rechercheClient',['filter' => 'auth']);
 $routes->post('listeUtilisateursPrivilege','entrainement\ajax\AjaxUtilisateurController::utilisateurPrivilege',['filter'=>'auth']);
+
+$routes->post('resultatRechercheClient','consultation\ajax\AjaxConsultationController::resultatRecherche',['filter'=>'auth']);
