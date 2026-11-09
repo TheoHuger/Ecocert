@@ -1,792 +1,362 @@
-ERROR - 2026-11-02 13:17:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-in SYSTEMPATH\Database\BaseConnection.php on line 908.
- 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 2 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 3 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 4 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
+DEBUG - 2026-11-02 12:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 12:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 12:48:02 --> ErrorException: Undefined variable $LesPays
+[Method: GET, Route: prive]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 17.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesPays', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 17)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\AuthController.php(9): view('pages/consultation/v_recherche_client')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 12:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:22:10 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:25:04 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:25:05 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:26:14 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:26:15 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:26:15 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:27:08 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:27:08 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:27:08 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:27:08 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:28:27 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:36:58 --> ErrorException: Undefined variable $LesDepartement
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 30.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesDepartement', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 30)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\consultation\ConsultationController.php(14): view('pages/consultation/v_recherche_client', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 13:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 13:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 13:49:35 --> Error: Undefined constant "UnDepartement"
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 31.
+ 1 SYSTEMPATH\View\View.php(240): include()
+ 2 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 4 APPPATH\Controllers\consultation\ConsultationController.php(16): view('pages/consultation/v_recherche_client', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->rechercheClient()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
  7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:17:17 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-[Method: GET, Route: liste_utilisateur]
-in SYSTEMPATH\Database\BaseConnection.php on line 863.
- 1 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 2 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 3 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:17:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
- 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 3 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 4 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 5 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2026-11-02 13:17:20 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-in SYSTEMPATH\Database\BaseConnection.php on line 908.
- 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 2 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 3 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 4 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:17:20 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-[Method: GET, Route: liste_utilisateur]
-in SYSTEMPATH\Database\BaseConnection.php on line 863.
- 1 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 2 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 3 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:17:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
- 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 3 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 4 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 5 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:19:07 --> ErrorException: Undefined variable $lesPrivileges
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 26.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesPrivileges', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 26)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(12): view('pages/ajout/v_ajout_certificat')
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->index()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:19:10 --> ErrorException: Undefined variable $lesPrivileges
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 26.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesPrivileges', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 26)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(12): view('pages/ajout/v_ajout_certificat')
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->index()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:24:01 --> ErrorException: Undefined variable $lesPrivileges
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 26.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesPrivileges', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 26)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(12): view('pages/ajout/v_ajout_certificat')
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->index()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:24:02 --> ErrorException: Undefined variable $lesPrivileges
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 26.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesPrivileges', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 26)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(12): view('pages/ajout/v_ajout_certificat')
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->index()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 13:53:16 --> ErrorException: Undefined variable $lesPrivileges
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 26.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesPrivileges', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 26)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(16): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->index()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:00:53 --> ErrorException: Undefined variable $lesPrivileges
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 26.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesPrivileges', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 26)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(16): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->selectionPrestation()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2026-11-02 14:05:55 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-in SYSTEMPATH\Database\BaseConnection.php on line 908.
- 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 2 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 3 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 4 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:05:55 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-[Method: GET, Route: liste_utilisateur]
-in SYSTEMPATH\Database\BaseConnection.php on line 863.
- 1 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 2 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 3 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:05:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
- 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 3 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 4 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 5 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2026-11-02 14:06:00 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-in SYSTEMPATH\Database\BaseConnection.php on line 908.
- 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 2 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 3 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 4 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:06:00 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-[Method: GET, Route: liste_utilisateur]
-in SYSTEMPATH\Database\BaseConnection.php on line 863.
- 1 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 2 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 3 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:06:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
-in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
- 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"')
- 3 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
-FROM "bd_certificats"."dbo"."utilisateur"', [], false)
- 4 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
- 5 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:15:25 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
+DEBUG - 2026-11-02 13:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 14:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 15:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 15:18:26 --> Error: Call to a member function getTousLesPays() on null
+[Method: GET, Route: recherche_client]
+in APPPATH\Controllers\consultation\ConsultationController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->rechercheClient()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 15:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 15:18:26 --> Error: Call to a member function getTousLesPays() on null
+[Method: GET, Route: recherche_client]
+in APPPATH\Controllers\consultation\ConsultationController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->rechercheClient()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-02 15:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 16:21:31 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClients
+[Method: POST, Route: resultatRechercheClient]
 in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(15): CodeIgniter\Model->__call('getClients', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
  4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:16:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
+DEBUG - 2026-11-02 16:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 16:21:33 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClients
+[Method: POST, Route: resultatRechercheClient]
 in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(15): CodeIgniter\Model->__call('getClients', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
  4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:16:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
+DEBUG - 2026-11-02 16:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 16:24:41 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
 in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
  4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:36 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
+DEBUG - 2026-11-02 16:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-02 16:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-02 16:25:50 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\consultation\ConsultationModelPays::getClient
+[Method: POST, Route: resultatRechercheClient]
 in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
+ 1 APPPATH\Controllers\consultation\ajax\AjaxConsultationController.php(16): CodeIgniter\Model->__call('getClient', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ajax\AjaxConsultationController->resultatRecherche()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ajax\AjaxConsultationController))
  4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:36 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:36 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:24:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\PrestationModel::getListePrivilege
-[Method: GET, Route: ajoutCertificat]
-in SYSTEMPATH\Model.php on line 758.
- 1 APPPATH\Controllers\ajout\AjoutCertificatController.php(14): CodeIgniter\Model->__call('getListePrivilege', [])
- 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
- 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
- 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:56:51 --> ErrorException: Undefined variable $lesLangues
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 56.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesLangues', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 56)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(16): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:56:53 --> ErrorException: Undefined variable $lesLangues
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 56.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesLangues', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 56)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(16): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:56:53 --> ErrorException: Undefined variable $lesLangues
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 56.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesLangues', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 56)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(16): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 14:56:54 --> ErrorException: Undefined variable $lesLangues
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 56.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lesLangues', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 56)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(16): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 15:20:07 --> ErrorException: Undefined property: stdClass::$libelle_prestation
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 16.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$libelle_prestation', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 16)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(18): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 15:20:08 --> ErrorException: Undefined property: stdClass::$libelle_prestation
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 16.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$libelle_prestation', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 16)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(18): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 15:20:09 --> ErrorException: Undefined property: stdClass::$libelle_prestation
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 16.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$libelle_prestation', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 16)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(18): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 15:20:09 --> ErrorException: Undefined property: stdClass::$libelle_prestation
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 16.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$libelle_prestation', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 16)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(18): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 15:25:43 --> ErrorException: Undefined property: stdClass::$libelle_prestation
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 16.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$libelle_prestation', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 16)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(18): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 15:27:32 --> ErrorException: Undefined property: stdClass::$libelle_prestation
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 16.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$libelle_prestation', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 16)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(18): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 15:40:28 --> ErrorException: Undefined property: stdClass::$libelle_prestation
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 16.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$libelle_prestation', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 16)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(18): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 15:40:42 --> ErrorException: Undefined property: stdClass::$libelle_prestation
-[Method: GET, Route: ajoutCertificat]
-in APPPATH\Views\pages\ajout\v_ajout_certificat.php on line 16.
- 1 APPPATH\Views\pages\ajout\v_ajout_certificat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$libelle_prestation', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php', 16)
- 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\ajout\\v_ajout_certificat.php')
- 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/ajout/v_ajout_certificat', [], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(18): view('pages/ajout/v_ajout_certificat', [...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->ajoutCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2026-11-02 16:26:22 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-in SYSTEMPATH\Database\BaseConnection.php on line 908.
- 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 2 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 3 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 4 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 5 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 6 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 16:26:22 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-[Method: POST, Route: ajoutCertificat]
-in SYSTEMPATH\Database\BaseConnection.php on line 863.
- 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 16:26:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
- 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 7 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
-10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2026-11-02 16:29:01 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-in SYSTEMPATH\Database\BaseConnection.php on line 908.
- 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 2 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 3 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 4 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 5 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 6 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 16:29:01 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-[Method: POST, Route: ajoutCertificat]
-in SYSTEMPATH\Database\BaseConnection.php on line 863.
- 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 16:29:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
- 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 7 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
-10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-ERROR - 2026-11-02 16:29:07 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-in SYSTEMPATH\Database\BaseConnection.php on line 908.
- 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 2 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 3 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 4 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 5 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 6 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 16:29:07 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-[Method: POST, Route: ajoutCertificat]
-in SYSTEMPATH\Database\BaseConnection.php on line 863.
- 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 5 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
- 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
-CRITICAL - 2026-11-02 16:29:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Impossible d'insérer la valeur NULL dans la colonne 'id_certificat', table 'bd_certificats.dbo.certificat'. Cette colonne n'accepte pas les valeurs NULL. Échec de INSERT. SQLSTATE: 23000, code: 515
-[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]L'instruction a été arrêtée. SQLSTATE: 01000, code: 3621
-in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
- 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (\'1\', \'1\', 1, \'11/111/1111111\', \'2026-10-12\', \'2026-10-13\', \'2026-10-14\', \'2026-12-12\', 0, \'PROD_E_EU_DraftCertificate_bergeron.pdf\', 0)')
- 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO "bd_certificats"."dbo"."certificat" ("id_prestation","id_langue","id_client","code_certificat","date_obtention","date_controle","date_debut_validite","date_fin_validite","archive","nom_fichier_pdf","accessible_en_ligne") VALUES (:id_prestation:, :id_langue:, :id_client:, :code_certificat:, :date_obtention:, :date_controle:, :date_debut_validite:, :date_fin_validite:, :archive:, :nom_fichier_pdf:, :accessible_en_ligne:)', [...], false)
- 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
- 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
- 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], true)
- 7 APPPATH\Controllers\ajout\AjoutCertificatController.php(26): CodeIgniter\Model->insert([...])
- 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\ajout\AjoutCertificatController->enregistrerCertificat()
- 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ajout\AjoutCertificatController))
-10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
-11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
-12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
-13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -39,8 +39,8 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= site_url('liste_utilisateur'); ?>">
-                                <span>liste</span>
+                            <a class="nav-link" href="<?= site_url('recherche_client'); ?>">
+                                <span>Recherche Client</span>
                             </a>
                             
                         </li>

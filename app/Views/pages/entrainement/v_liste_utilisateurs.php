@@ -31,21 +31,23 @@
 </div>
 <script>
     $(function(){
-        $('#listePrivileges').change(function(){
-            var leprivilege = $(this).val();
+        $('#formRecherche').on('submit',function(event){
+        event.preventDefault();
             $.ajax({
-                url: "<?= site_url('listeUtilisateursPrivilege') ?>",
+                url: "<?= site_url('resultatRechercheClient') ?>",
                 method: "POST",
-                data: {privilege: leprivilege},
+                data: {
+                    nom : $('#inputNomRaison').val(),
+                    pays : $('#inputPays').val(),
+                    departement : $('#inputDepartement').val(),
+                    ville : $('#inputVille').val()
+                },
                 dataType: 'json',
                 success: function(data){
-                    $('#liste').empty();
-                    var p = document.createElement("p");
+                    $('#resultats').empty();
                     if (data.length === 0) {
-                        p.appendChild(document.createTextNode("Pas d'utilisateur pour ce privilège"));
-                        $('#liste').addClass("fw-bold");
+                        $('#resultats').text("Aucun client trouvé");
                     } else {
-                        $('#liste').removeClass("fw-bold");
                         $.each(data, function(key, value){
                             p.appendChild(document.createTextNode(value.nomUtilisateur + ' ' + value.prenomUtilisateur));
                             p.appendChild(document.createElement('br'));

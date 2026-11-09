@@ -22,3 +22,7 @@ $routes->post('ajoutCertificat', 'ajout\AjoutCertificatController::enregistrerCe
 
 
 
+
+$routes->get('recherche_client','consultation\ConsultationController::rechercheClient',['filter' => 'auth']);
+
+$routes->post('resultatRechercheClient','consultation\ajax\AjaxConsultationController::resultatRecherche',['filter'=>'auth']);

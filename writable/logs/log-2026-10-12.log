@@ -1,6 +1,7 @@
 DEBUG - 2026-10-12 11:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-10-12 11:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2026-10-12 11:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+<<<<<<< HEAD
 CRITICAL - 2026-10-12 14:23:13 --> Error: Class "App\Controllers\ajout\BaseController" not found
 [Method: GET, Route: ajoutCertificat]
 in APPPATH\Controllers\ajout\AjoutCertificatController.php on line 5.
@@ -179,3 +180,325 @@ FROM "bd_certificats"."dbo"."utilisateur"', [], false)
  9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+=======
+DEBUG - 2026-10-12 12:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 12:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-10-12 13:06:46 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 908.
+ 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"', [], false)
+ 3 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-12 13:06:46 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: liste_utilisateur]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"', [], false)
+ 2 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-12 13:06:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"', [], false)
+ 4 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 13:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-10-12 13:10:21 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\BaseConnection.php on line 908.
+ 1 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"')
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"', [], false)
+ 3 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
+ 5 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
+ 6 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
+ 7 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-12 13:10:21 --> CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
+[Method: GET, Route: recherche_client]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"', [], false)
+ 2 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-12 13:10:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom de colonne non valide : 'privilege'. SQLSTATE: 42S22, code: 207
+in SYSTEMPATH\Database\SQLSRV\Connection.php on line 533.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\SQLSRV\Connection->execute('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"')
+ 3 SYSTEMPATH\Database\SQLSRV\Builder.php(658): CodeIgniter\Database\BaseConnection->query('SELECT DISTINCT "privilege"
+FROM "bd_certificats"."dbo"."utilisateur"', [], false)
+ 4 APPPATH\Models\UtilisateurModel.php(24): CodeIgniter\Database\SQLSRV\Builder->get()
+ 5 APPPATH\Controllers\entrainement\UtilisateurController.php(13): App\Models\UtilisateurModel->getListePrivilege()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\entrainement\UtilisateurController->consultationUtilisateur()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\entrainement\UtilisateurController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 13:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 13:21:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pages/entrainement/v_recherche_client.php"
+[Method: GET, Route: prive]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/entrainement/v_recherche_client.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/entrainement/v_recherche_client', [], true)
+ 3 APPPATH\Controllers\AuthController.php(9): view('pages/entrainement/v_recherche_client')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 13:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 13:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 14:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:11:14 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 18.
+ 1 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 3 APPPATH\Controllers\AuthController.php(9): view('pages/consultation/v_recherche_client')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:11:30 --> ErrorException: Undefined variable $LesPays
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 17.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesPays', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 17)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\AuthController.php(9): view('pages/consultation/v_recherche_client')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:11:30 --> ErrorException: Undefined variable $LesPays
+[Method: GET, Route: recherche_client]
+in APPPATH\Views\pages\consultation\v_recherche_client.php on line 17.
+ 1 APPPATH\Views\pages\consultation\v_recherche_client.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LesPays', 'C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php', 17)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Ecocert\\app\\Views\\pages\\consultation\\v_recherche_client.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('pages/consultation/v_recherche_client', [], true)
+ 5 APPPATH\Controllers\AuthController.php(9): view('pages/consultation/v_recherche_client')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\AuthController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:17:06 --> ParseError: syntax error, unexpected string content "nom_pays)"
+[Method: GET, Route: recherche_client]
+in APPPATH\Models\consultation\ConsultationModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Ecocert\\app\\Models\\consultation\\ConsultationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\consultation\\ConsultationModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\consultation\\ConsultationModel')
+ 4 SYSTEMPATH\Config\Factories.php(298): class_exists('App\\Models\\consultation\\ConsultationModel')
+ 5 SYSTEMPATH\Config\Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\consultation\\ConsultationModel')
+ 6 SYSTEMPATH\Config\Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\consultation\\ConsultationModel', [...])
+ 7 SYSTEMPATH\Common.php(851): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\consultation\ConsultationController.php(9): model('App\\Models\\consultation\\ConsultationModel')
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:17:07 --> ParseError: syntax error, unexpected string content "nom_pays)"
+[Method: GET, Route: recherche_client]
+in APPPATH\Models\consultation\ConsultationModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Ecocert\\app\\Models\\consultation\\ConsultationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\consultation\\ConsultationModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\consultation\\ConsultationModel')
+ 4 SYSTEMPATH\Config\Factories.php(298): class_exists('App\\Models\\consultation\\ConsultationModel')
+ 5 SYSTEMPATH\Config\Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\consultation\\ConsultationModel')
+ 6 SYSTEMPATH\Config\Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\consultation\\ConsultationModel', [...])
+ 7 SYSTEMPATH\Common.php(851): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 APPPATH\Controllers\consultation\ConsultationController.php(9): model('App\\Models\\consultation\\ConsultationModel')
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:17:45 --> Error: Class "App\Models\consultation\Model" not found
+[Method: GET, Route: recherche_client]
+in APPPATH\Models\consultation\ConsultationModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Ecocert\\app\\Models\\consultation\\ConsultationModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\consultation\\ConsultationModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\consultation\\ConsultationModel')
+ 5 SYSTEMPATH\Config\Factories.php(298): class_exists('App\\Models\\consultation\\ConsultationModel')
+ 6 SYSTEMPATH\Config\Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\consultation\\ConsultationModel')
+ 7 SYSTEMPATH\Config\Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\consultation\\ConsultationModel', [...])
+ 8 SYSTEMPATH\Common.php(851): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 9 APPPATH\Controllers\consultation\ConsultationController.php(9): model('App\\Models\\consultation\\ConsultationModel')
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:17:46 --> Error: Class "App\Models\consultation\Model" not found
+[Method: GET, Route: recherche_client]
+in APPPATH\Models\consultation\ConsultationModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Ecocert\\app\\Models\\consultation\\ConsultationModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\consultation\\ConsultationModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\consultation\\ConsultationModel')
+ 5 SYSTEMPATH\Config\Factories.php(298): class_exists('App\\Models\\consultation\\ConsultationModel')
+ 6 SYSTEMPATH\Config\Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\consultation\\ConsultationModel')
+ 7 SYSTEMPATH\Config\Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\consultation\\ConsultationModel', [...])
+ 8 SYSTEMPATH\Common.php(851): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 9 APPPATH\Controllers\consultation\ConsultationController.php(9): model('App\\Models\\consultation\\ConsultationModel')
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:17:46 --> Error: Class "App\Models\consultation\Model" not found
+[Method: GET, Route: recherche_client]
+in APPPATH\Models\consultation\ConsultationModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Ecocert\\app\\Models\\consultation\\ConsultationModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\consultation\\ConsultationModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\consultation\\ConsultationModel')
+ 5 SYSTEMPATH\Config\Factories.php(298): class_exists('App\\Models\\consultation\\ConsultationModel')
+ 6 SYSTEMPATH\Config\Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\consultation\\ConsultationModel')
+ 7 SYSTEMPATH\Config\Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\consultation\\ConsultationModel', [...])
+ 8 SYSTEMPATH\Common.php(851): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 9 APPPATH\Controllers\consultation\ConsultationController.php(9): model('App\\Models\\consultation\\ConsultationModel')
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-10-12 15:17:46 --> Error: Class "App\Models\consultation\Model" not found
+[Method: GET, Route: recherche_client]
+in APPPATH\Models\consultation\ConsultationModel.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Ecocert\\app\\Models\\consultation\\ConsultationModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\consultation\\ConsultationModel')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\consultation\\ConsultationModel')
+ 5 SYSTEMPATH\Config\Factories.php(298): class_exists('App\\Models\\consultation\\ConsultationModel')
+ 6 SYSTEMPATH\Config\Factories.php(217): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\consultation\\ConsultationModel')
+ 7 SYSTEMPATH\Config\Factories.php(160): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\consultation\\ConsultationModel', [...])
+ 8 SYSTEMPATH\Common.php(851): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 9 APPPATH\Controllers\consultation\ConsultationController.php(9): model('App\\Models\\consultation\\ConsultationModel')
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\consultation\ConsultationController->consultationPays()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\consultation\ConsultationController))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-10-12 15:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-10-12 15:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+>>>>>>> Recherche_Client
